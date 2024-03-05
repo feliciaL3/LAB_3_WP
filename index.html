@@ -174,13 +174,27 @@
     </div>
   </div>
 
+
 <!-- Mobile Only Section -->
 <section id="mobile-only-section">
   <h2>Mobile-Only Section</h2>
   <p>Subscribe to our newsletter</p>
 </section>  
 
-  
+<!-- Mascot Section -->
+<div class="mascot">
+  <img src="assets/sweet.png" alt="Mascot">
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    setTimeout(function () {
+      var mascot = document.querySelector(".mascot");
+      mascot.style.visibility = "visible";
+      mascot.style.animation = "bounce 1s infinite alternate";
+    }, 3000); // 3000 milliseconds (3 seconds) delay
+  });
+</script>  
 
 <footer>
   <p>SWEETTREATS.CO &copy; 2024. All rights reserved.</p>
