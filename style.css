@@ -58,11 +58,9 @@ font-size: 20px;
 text-align: justify; /* Add this line to justify the text */
 }
 
+/* Bootstrap-based styles for Statistics Section */
 .stats {
   color: #555;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   padding: 50px 0;
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
@@ -71,15 +69,15 @@ text-align: justify; /* Add this line to justify the text */
 .stat {
   color: #555;
   text-align: center;
-  flex: 1;
-  margin-bottom: 20px; /* Add some bottom margin for better spacing on mobile */
+  margin-bottom: 20px;
 }
 
 .stat h2 {
-font-size: 24px; /* Adjust font size for mobile view */
-font-weight: bold;
-margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
+
 
 #button-container {
   display: flex;
