@@ -524,3 +524,14 @@ z-index: 1002;
 
 
 
+
+/* Custom CSS */
+.btn-pink {
+  background-color: #ff6b6b;
+  color: #fff;
+}
+
+/* Hover effect */
+.btn-pink:hover {
+  background-color: #ff4d4d;
+}
