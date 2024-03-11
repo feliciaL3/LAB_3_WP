@@ -42,10 +42,11 @@ body {
   width: 450px;
   height: 550px;
   border-radius: 20px;
+  padding-left: 20px;
 }
 
 .banner h1 {
-  font-size: 48px;
+  font-size: 40px;
   font-weight: bold;
   margin-bottom: 20px;
   color: #ff6b6b; /* Pink color for the heading */
@@ -53,6 +54,8 @@ body {
 
 .welcome-text {
 color: #555; /* Change to the color you prefer */
+font-size: 20px;
+text-align: justify; /* Add this line to justify the text */
 }
 
 .stats {
@@ -83,6 +86,9 @@ margin-bottom: 10px;
   flex-wrap: wrap; /* Adjust the button container layout for mobile view */
   justify-content: center;
   margin-top: 20px;
+  align-items: center;
+
+
 }
 
 button {
@@ -91,6 +97,8 @@ button {
   border-radius: 5px;
   font-size: 16px;
   cursor: pointer;
+  padding-left: 50px;
+
 }
 
 .success {
@@ -98,9 +106,11 @@ button {
   box-shadow: 2px 2px 2px #ff6b6b; /* Pink box shadow for the button */
   border: 2px solid #ff6b6b; /* Pink border for the button */
   color: #555; /* Pink text color for the button */
-  width: 200px; /* Set a fixed width for the button */
-  height: 100px;
+  width: 150px; /* Set a fixed width for the button */
+  height: 75px;
   margin-bottom: 20px; /* Add bottom margin for better spacing on mobile */
+  margin-right: 40px; 
+
 }
 
 .success:hover {
@@ -112,8 +122,8 @@ button {
   box-shadow: 2px 2px 2px #ff6b6b; /* Pink box shadow for the button */
   border: 2px solid #ff6b6b; /* Pink border for the button */
   color: #555; /* Pink text color for the button */
-  width: 200px; /* Set a fixed width for the button */
-  height: 100px;
+  width: 150px; /* Set a fixed width for the button */
+  height: 75px;
   margin-bottom: 20px; /* Add bottom margin for better spacing on mobile */
 }
 
@@ -202,6 +212,7 @@ color: #ff6b6b; /* Set a common color for the section headers */
 padding: 50px 0;
 background-color: #fff; /* White background color for the products section */
 text-align: center;
+
 }
 
 .intro-header {
@@ -212,6 +223,9 @@ margin-bottom: 20px;
 font-size: 18px;
 color: #555; /* Dark gray text color for the introduction paragraph */
 margin-bottom: 40px;
+text-align: justify;
+padding-left: 20px;
+padding-right: 20px;
 }
 
 .card-container {
@@ -226,6 +240,8 @@ margin-bottom: 20px;
 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 border-radius: 10px;
 overflow: hidden;
+padding-bottom: 30px;
+
 }
 
 .card img {
@@ -271,12 +287,15 @@ background-color: #ff4d4d; /* Darker pink background on hover */
 padding: 50px 0;
 background-color: #fff; /* White background color for the FAQ section */
 text-align: center;
+padding-bottom: 20px;
 }
 
 .faq-content {
 display: flex;
 justify-content: space-around;
 flex-wrap: wrap;
+padding-bottom: 20px;
+
 }
 
 .faq-item {
@@ -285,6 +304,9 @@ margin-bottom: 20px;
 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 border-radius: 10px;
 overflow: hidden;
+padding-bottom: 40px;
+
+
 }
 
 .faq-item h4 {
@@ -296,6 +318,8 @@ margin: 15px 0;
 font-size: 16px;
 color: #555;
 padding: 0 20px;
+text-align: justify; /* Add this line to justify the text */
+
 }
 
 
@@ -334,6 +358,7 @@ margin-bottom: 10px;
 font-size: 18px;
 color: #555; /* Dark gray text color for the introduction paragraph */
 margin-bottom: 30px;
+text-align: center
 }
 
 #addresses .address {
@@ -475,7 +500,7 @@ height: auto;
 content: "Do you need a suggestion? Contact US!";
 display: block;
 position: absolute;
-bottom: 150%;
+bottom: 100%;
 left: 50%;
 transform: translateX(-50%);
 padding: 10px;
@@ -494,8 +519,6 @@ bottom: 140%;
 left: 50%;
 margin-left: -10px;
 border-width: 10px;
-border-style: solid;
-border-color: transparent transparent #000 transparent;
 z-index: 1002;
 }
 
