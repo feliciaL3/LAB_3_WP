@@ -286,6 +286,8 @@ padding: 50px 0;
 background-color: #fff; /* White background color for the FAQ section */
 text-align: center;
 padding-bottom: 20px;
+padding-top: 20px;
+
 }
 
 .faq-content {
@@ -293,16 +295,19 @@ display: flex;
 justify-content: space-around;
 flex-wrap: wrap;
 padding-bottom: 20px;
+padding-top: 20px;
 
 }
 
 .faq-item {
 width: 300px;
-margin-bottom: 20px;
+margin-bottom: 40px;
 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 border-radius: 10px;
 overflow: hidden;
 padding-bottom: 40px;
+padding-top: 20px;
+box-shadow: none; /* Remove the box shadow */
 
 
 }
