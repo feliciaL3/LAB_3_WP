@@ -278,50 +278,45 @@ background-color: #ff4d4d; /* Darker pink background on hover */
 }
 }
 
-/* Frequently Asked Questions Section */
+/* Bootstrap-based styles for Frequently Asked Questions Section */
 #faq {
-padding: 50px 0;
-background-color: #fff; /* White background color for the FAQ section */
-text-align: center;
-padding-bottom: 20px;
-padding-top: 20px;
-
+  padding: 50px 0;
+  background-color: #fff; /* White background color for the FAQ section */
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 .faq-content {
-display: flex;
-justify-content: space-around;
-flex-wrap: wrap;
-padding-bottom: 20px;
-padding-top: 20px;
-
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 .faq-item {
-width: 300px;
-margin-bottom: 10px;
-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-border-radius: 10px;
-overflow: hidden;
-padding-bottom: 40px;
-padding-top: 10px;
-box-shadow: none; /* Remove the box shadow */
-
-
+  width: 100%; /* Adjusted to full width within Bootstrap columns */
+  margin-bottom: 20px; /* Adjusted margin for better spacing */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 20px;
+  box-shadow: none; /* Removed the duplicated box shadow */
 }
 
 .faq-item h4 {
-font-size: 20px;
-margin: 15px 0;
+  font-size: 24px; /* Adjusted font size for better visibility */
+  margin: 15px 0;
 }
 
 .faq-item p {
-font-size: 16px;
-color: #555;
-padding: 0 20px;
-text-align: justify; /* Add this line to justify the text */
-
+  font-size: 16px;
+  color: #555;
+  padding: 0;
+  text-align: justify; /* Retained for justifying the text */
 }
+
 
 
 /* Common styles for section headers. FOr the find us title */
